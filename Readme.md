@@ -25,3 +25,5 @@ realiza-se a submissão com o 'git commit -m "Mensagem de instrução sobre
 modificação na versão"
 
 Depois de salvo, volta-se para untracked.
+
+git diff - mostra as modificações feitas no arquivo, desde o init
