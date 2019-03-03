@@ -19,7 +19,9 @@ Para acessar novamente repita o primeiro comando
 
 -- staged área onde ficam os arquivos que serão submetidos (commit) --
 
-Depois de adionar as modificãções do arquivo com o 'git add <file>', levando tudo para staged,
-realiza-se a submissão com o 'git commit -m "Mensagem de instrução sobre modificação na versão"
+Depois de adicionar as modificãções do arquivo com o 'git add <file>', 
+levando tudo para staged,
+realiza-se a submissão com o 'git commit -m "Mensagem de instrução sobre 
+modificação na versão"
 
 Depois de salvo, volta-se para untracked.
