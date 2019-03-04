@@ -26,4 +26,4 @@ modificação na versão"
 
 Depois de salvo, volta-se para untracked.
 
-git diff - mostra as modificações feitas no arquivo, desde o init
+git diff - mostra as modificações no arquivo com status 'modified'
