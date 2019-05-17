@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Estudos de Git</h1>
+        <p>
+            Esse documento foi elaborado com base em tutoriais e o guia rápido que segue:
+            <a href="https://rogerdudler.github.io/git-guide/index.pt_BR.html">git - guia prático</a> </p>
+
+        </p>
+        <p>
+            O git é um versionador, isto é, um sistema com a finalidade de gerenciar diferentes versões
+            de um documento. Para realizar o o registro adequado e seguro das versões ele trabalha com
+            três árvores de diretórios:
+            <ol>
+                <li> Work Directory - diretório criado para armazenar os arquivos do seu trabalho</li>
+                <li> Index (staged) - estágio intermediário onde são colocados os arquivos em sua 
+                    versão fechada, com a intensão de submetê-los para a terceira árvore
+                </li>
+                <li>HEAD - árvore com registro de todas as versões submetidas</li>
+            </ol>
+
+        </p>
+
+        <h1> Alguns comandos </h1>
+        <h2> git status </h2>
+        <p>
+            Exibe um relatório com os status dos arquivos no diretório,
+            ajuda a identificar quais arquivos estão prontos para serem
+            submetidos (commit).
+        </p>
+
+        <h2>git add * / git add <i>nome_aquivo</i></h2>
+        <p>
+            Leva o arquivo do diretório de trabalho para a árvore index (staged). Nesse
+            ponto os arquivos estão aguardando para serem submetidos (commit)
+            e levados para a árvore HEAD, onde o pacote de modificações (versão
+            fechada dos aquivos) são registradas no diretório local, mas com as modificações
+            ainda não enviadas para o repositório remoto.
+        </p>
+    </div>
+</body>
+
+</html>
